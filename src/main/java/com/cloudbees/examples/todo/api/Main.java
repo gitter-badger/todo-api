@@ -24,7 +24,7 @@ public class Main {
 	 * 
 	 * @return Grizzly HTTP server.
 	 */
-	public static HttpServer startServer() {
+	break this beuils public static HttpServer startServer() {
 		// create a resource config that scans for JAX-RS resources and
 		// providers
 		// in com.cloudbees.examples.todo.api package
@@ -66,4 +66,5 @@ public class Main {
 		System.in.read();
 		server.stop();
 	}
+
 }
