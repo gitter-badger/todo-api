@@ -43,9 +43,9 @@ public class HashMapToDoService implements ToDoService {
 
 	@Override
 	public ToDo create(ToDo todo) {
-		//todo.setId(last++);
-		//todo.setCreatedDate(Instant.now());
-		//todos.put(todo.getId(), todo);
+		todo.setId(last++);
+		todo.setCreatedDate(Instant.now());
+		todos.put(todo.getId(), todo);
 
 		return null;
 	}
