@@ -1,3 +1,5 @@
+stage "build"
+
 stage "unit test"
 
 node {
