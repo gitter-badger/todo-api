@@ -14,7 +14,7 @@ build "freestyle-test"
 
 checkpoint 'deployable ready'
 
-stage "deployment testing"
+stage "testing"
 parallel "function test": {
         node {
             git "https://github.com/brianvdawson/todo-api.git"
